@@ -3,7 +3,7 @@ import github from "../assets/github-logo.png";
 
 const Navbar = () => {
   return (
-    <div className="max-lg:collapse lg:mb-48 shadow-sm md:w-11/12 mx-auto rounded-md">
+    <div className="max-lg:collapse lg:mb-48 shadow-sm mx-auto rounded-md">
       <div className="collapse-title navbar flex flex-col md:flex-row">
         <div className="navbar-start text-center w-full justify-center md:justify-start ">
             <img className="w-[30px] h-[30px] bg-white rounded-full" src={github} alt="" />
